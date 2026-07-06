@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Si utiliza este material, por favor cítelo mediante los siguientes metadatos."
+title: "Manual Práctico de Bioestadística y Epidemiología — Código en R"
+abstract: >-
+  Scripts en R que acompañan al Manual Práctico de Bioestadística y
+  Epidemiología. El material está organizado en 8 bloques temáticos (32 fichas)
+  y contiene la sintaxis anotada de cada método, con datos de ejemplo reales o
+  simulados con semilla fija para que cada fragmento sea reproducible de forma
+  independiente. Requiere R >= 4.4.0.
+type: software
+authors:
+  - family-names: "Huerta Castaño"
+    given-names: "José María"
+    orcid: "https://orcid.org/0000-0002-9637-3869"
+  - family-names: "Colorado Yohar"
+    given-names: "Sandra Milena"
+    orcid: "https://orcid.org/0000-0002-6700-0780"
+keywords:
+  - bioestadística
+  - epidemiología
+  - inferencia causal
+  - análisis de supervivencia
+  - meta-análisis
+  - R
+repository-code: "https://github.com/jmhuertaphd/manual-metodos-estadisticos-vol1"
+version: "1.0.0"
+date-released: "2026-01-01"

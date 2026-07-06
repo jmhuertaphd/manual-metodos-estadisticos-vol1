@@ -1,0 +1,31 @@
+# --- R ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Salida y datos temporales
+*.log
+/output/
+/outputs/
+/figures/
+/figuras/
+*.pdf.tmp
+
+# renv (mantener renv.lock; ignorar la librería local)
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Editores ---
+.vscode/
+.idea/
+*~
+*.swp
