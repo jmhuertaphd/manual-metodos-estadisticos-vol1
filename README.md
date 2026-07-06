@@ -54,10 +54,17 @@ meta-análisis, Bloque 6) y **STROBE-MR** (aleatorización mendeliana, Ficha 12)
 
 ## Cómo citar
 
+[![DOI](https://zenodo.org/badge/1290744800.svg)](https://doi.org/10.5281/zenodo.21216092)
+
 Los metadatos de citación están en [`CITATION.cff`](CITATION.cff); GitHub mostrará
 un botón «Cite this repository» que genera la cita en formato APA o BibTeX.
 
-DOI e ISBN (Amazon KDP) pendientes de asignación.
+El badge enlaza al DOI de concepto (`10.5281/zenodo.21216092`), que siempre resuelve
+a la última versión publicada. La versión inicial `v1.0.0` tiene su propio DOI
+(`10.5281/zenodo.21216093`); cítese la versión específica solo si se referencia el
+código exacto usado en un análisis.
+
+ISBN (Amazon KDP) pendiente de asignación.
 
 ## Autoría
 
