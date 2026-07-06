@@ -57,15 +57,6 @@ meta-análisis, Bloque 6) y **STROBE-MR** (aleatorización mendeliana, Ficha 12)
 Los metadatos de citación están en [`CITATION.cff`](CITATION.cff); GitHub mostrará
 un botón «Cite this repository» que genera la cita en formato APA o BibTeX.
 
-Para obtener un DOI citable y archivar el código de forma permanente:
-
-1. Crea una cuenta en [Zenodo](https://zenodo.org) e inicia sesión con GitHub.
-2. En *Settings → GitHub*, activa el interruptor de este repositorio.
-3. En GitHub, crea una *release* (etiqueta, p. ej. `v1.0.0`). Zenodo la archiva
-   automáticamente y le asigna un DOI. Cada nueva *release* genera una versión,
-   y todas resuelven a un mismo DOI de concepto.
-4. Copia el badge del DOI resultante en el hueco de arriba.
-
 DOI e ISBN (Amazon KDP) pendientes de asignación.
 
 ## Autoría
