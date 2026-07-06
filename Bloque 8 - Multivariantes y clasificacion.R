@@ -1293,8 +1293,13 @@ coef_ridge <- coef(cv_ridge, s = "lambda.min")
 # Todos los coeficientes != 0, pero encogidos
 # Trayectorias de coeficientes
 fit_ridge <- glmnet(x, y, family = "binomial", alpha = 0)
+# Margen superior ampliado: plot.glmnet() dibuja un eje propio (nº de
+# coeficientes activos) sobre el gráfico; sin este margen el título
+# personalizado se solapa con esos números.
+op <- par(mar = c(5, 4, 6, 2) + 0.1)
 plot(fit_ridge, xvar = "lambda", label = TRUE,
- main = "Trayectorias de coeficientes — Ridge\n\n")
+ main = "Trayectorias de coeficientes — Ridge")
+par(op)
 
 # ──────────────────────────────────────────────────────────────────────────────
 # ■ Elastic Net (ajuste de α y λ)
@@ -1328,11 +1333,15 @@ coef(enet$finalModel, s = enet$bestTune$lambda)
 # Trayectorias de coeficientes del Lasso
 fit_lasso <- glmnet(x, y, family = "binomial", alpha = 1)
 # vs lambda (escala log)
+op <- par(mar = c(5, 4, 6, 2) + 0.1)
 plot(fit_lasso, xvar = "lambda", label = TRUE,
- main = "Trayectorias de coeficientes — Lasso (vs. log lambda)\n\n")
+ main = "Trayectorias de coeficientes — Lasso (vs. log lambda)")
+par(op)
 # vs fracción de desviación explicada
+op <- par(mar = c(5, 4, 6, 2) + 0.1)
 plot(fit_lasso, xvar = "dev", label = TRUE,
- main = "Trayectorias de coeficientes — Lasso (vs. devianza explicada)\n\n")
+ main = "Trayectorias de coeficientes — Lasso (vs. devianza explicada)")
+par(op)
 # Número de variables activas por lambda
 fit_lasso$df
 
