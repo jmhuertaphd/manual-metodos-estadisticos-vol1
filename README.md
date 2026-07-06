@@ -65,6 +65,11 @@ Los metadatos de citación (autores, ORCID) están en [`CITATION.cff`](CITATION.
 GitHub genera a partir de él la cita en formato APA o BibTeX (botón «Cite this
 repository» en la barra lateral del repositorio).
 
+## El libro
+
+Este código acompaña al *Manual Práctico de Bioestadística y Epidemiología*
+(Independently published, 2026; ISBN 9798185847381).
+
 ## Autoría
 
 - José María Huerta Castaño — ORCID [0000-0002-9637-3869](https://orcid.org/0000-0002-9637-3869)
